@@ -21,5 +21,6 @@ let posicao = 0;
 let perguntaAtual;
 
 function mostraPergunta(){
-    
+    perguntaAtual = perguntaAtual[posicao];
+    caixaPergunta.textContent = perguntaAtual.enunciado;
 }
