@@ -10,11 +10,11 @@ const perguntas = [//abre a lista de objetos (itens)
         enunciado: "Você tem em média 8 horas de sono?",
         alternativas: [{
             texto: "Sim, eu tenho",
-            afirmação: "durmo em média 8 horas por dia"
+            afirmação: "durmo em média 8 horas por dia,"
         },
         {
             texto: "Não, eu não tenho",
-            afirmação: "durmo menos que 8 horas por dia"
+            afirmação: "durmo menos que 8 horas por dia,"
         }
         ]
     },
@@ -22,11 +22,11 @@ const perguntas = [//abre a lista de objetos (itens)
         enunciado: "Você bebe 2 litros de água por dia?",
         alternativas: [{
             texto: "Sim, eu bebo",
-            afirmação: "bebo 2 litros ou mais de água por dia"
+            afirmação: "bebo 2 litros ou mais de água por dia,"
         },
         {
             texto:"Não, eu não bebo",
-            afirmação:"bebo menos de 2 litros de água por dia"
+            afirmação:"bebo menos de 2 litros de água por dia,"
         }
         ]
     },
