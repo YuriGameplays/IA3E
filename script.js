@@ -2,41 +2,43 @@ const caixaPrincipal = document.querySelector('.caixa-principal');
 const caixaPergunta = document.querySelector('.caixa-pergunta');
 const caixaAlternativa = document.querySelector('.caixa-alternativa');
 const caixaResultado = document.querySelector('.caixa-resultado');
+const textoResultado = document.querySelector('.texto-resultado');
+
 
 const perguntas = [//abre a lista de objetos (itens)
     {//abre o item
-        enunciado: "Você gosta da Inteligência Artificial?",
+        enunciado: "Você tem em média 8 horas de sono?",
         alternativas: [{
-            texto: "Sim",
-            afirmação: "Afirmação da alternativa 1"
+            texto: "Sim, eu tenho",
+            afirmação: "durmo em média 8 horas por dia"
         },
         {
-            texto: "Não",
-            afirmação: "Afirmação da alternativa"
+            texto: "Não, eu não tenho",
+            afirmação: "durmo menos que 8 horas por dia"
         }
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Você bebe 2 litros de água por dia?",
         alternativas: [{
-            texto: "Quem sabe...",
-            afirmação: "Afirmação da alternativa 1"
+            texto: "Sim, eu bebo",
+            afirmação: "bebo 2 litros ou mais de água por dia"
         },
         {
-            texto:"Talvez",
-            afirmação:"Afirmação da alternativa 2"
+            texto:"Não, eu não bebo",
+            afirmação:"bebo menos de 2 litros de água por dia"
         }
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Você faz exercícios fisicos??",
         alternativas: [{
-            texto: "Sim",
-            afirmação: "Afirmação da alternativa 1"
+            texto: "Sim, eu faço",
+            afirmação: "pratico exercícios regularmente"
         },
         {
-            texto: "Não",
-            afirmação: "Afirmação da alternativa"
+            texto: "Não, eu não faço",
+            afirmação: "sou sedentario"
         }
         ]
     }
